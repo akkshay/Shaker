@@ -13,6 +13,14 @@
 		16E984EB1A5646B8003BED36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E984EA1A5646B8003BED36 /* Images.xcassets */; };
 		16E984EE1A5646B8003BED36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E984EC1A5646B8003BED36 /* LaunchScreen.xib */; };
 		16E984FA1A5646B8003BED36 /* ShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E984F91A5646B8003BED36 /* ShakerTests.swift */; };
+		16E9850B1A5646CE003BED36 /* exhale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E985041A5646CE003BED36 /* exhale.mp3 */; };
+		16E9850C1A5646CE003BED36 /* gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E985051A5646CE003BED36 /* gun.mp3 */; };
+		16E9850D1A5646CE003BED36 /* halloween.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E985061A5646CE003BED36 /* halloween.mp3 */; };
+		16E9850E1A5646CE003BED36 /* helicopter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E985071A5646CE003BED36 /* helicopter.mp3 */; };
+		16E9850F1A5646CE003BED36 /* punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E985081A5646CE003BED36 /* punch.mp3 */; };
+		16E985101A5646CE003BED36 /* railroad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E985091A5646CE003BED36 /* railroad.mp3 */; };
+		16E985111A5646CE003BED36 /* roar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16E9850A1A5646CE003BED36 /* roar.mp3 */; };
+		16E985131A564814003BED36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E985121A564814003BED36 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		16E984F31A5646B8003BED36 /* ShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E984F81A5646B8003BED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E984F91A5646B8003BED36 /* ShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakerTests.swift; sourceTree = "<group>"; };
+		16E985041A5646CE003BED36 /* exhale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = exhale.mp3; sourceTree = "<group>"; };
+		16E985051A5646CE003BED36 /* gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gun.mp3; sourceTree = "<group>"; };
+		16E985061A5646CE003BED36 /* halloween.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = halloween.mp3; sourceTree = "<group>"; };
+		16E985071A5646CE003BED36 /* helicopter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = helicopter.mp3; sourceTree = "<group>"; };
+		16E985081A5646CE003BED36 /* punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punch.mp3; sourceTree = "<group>"; };
+		16E985091A5646CE003BED36 /* railroad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = railroad.mp3; sourceTree = "<group>"; };
+		16E9850A1A5646CE003BED36 /* roar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roar.mp3; sourceTree = "<group>"; };
+		16E985121A564814003BED36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E985131A564814003BED36 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 		16E984D51A5646B8003BED36 = {
 			isa = PBXGroup;
 			children = (
+				16E985121A564814003BED36 /* AVFoundation.framework */,
 				16E984E01A5646B8003BED36 /* Shaker */,
 				16E984F61A5646B8003BED36 /* ShakerTests */,
 				16E984DF1A5646B8003BED36 /* Products */,
@@ -80,6 +98,7 @@
 				16E984E31A5646B8003BED36 /* AppDelegate.swift */,
 				16E984E51A5646B8003BED36 /* ViewController.swift */,
 				16E984E71A5646B8003BED36 /* Main.storyboard */,
+				16E985031A5646CE003BED36 /* Sounds */,
 				16E984EA1A5646B8003BED36 /* Images.xcassets */,
 				16E984EC1A5646B8003BED36 /* LaunchScreen.xib */,
 				16E984E11A5646B8003BED36 /* Supporting Files */,
@@ -110,6 +129,20 @@
 				16E984F81A5646B8003BED36 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16E985031A5646CE003BED36 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				16E985041A5646CE003BED36 /* exhale.mp3 */,
+				16E985051A5646CE003BED36 /* gun.mp3 */,
+				16E985061A5646CE003BED36 /* halloween.mp3 */,
+				16E985071A5646CE003BED36 /* helicopter.mp3 */,
+				16E985081A5646CE003BED36 /* punch.mp3 */,
+				16E985091A5646CE003BED36 /* railroad.mp3 */,
+				16E9850A1A5646CE003BED36 /* roar.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +225,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E9850C1A5646CE003BED36 /* gun.mp3 in Resources */,
 				16E984E91A5646B8003BED36 /* Main.storyboard in Resources */,
 				16E984EE1A5646B8003BED36 /* LaunchScreen.xib in Resources */,
+				16E985101A5646CE003BED36 /* railroad.mp3 in Resources */,
 				16E984EB1A5646B8003BED36 /* Images.xcassets in Resources */,
+				16E9850D1A5646CE003BED36 /* halloween.mp3 in Resources */,
+				16E985111A5646CE003BED36 /* roar.mp3 in Resources */,
+				16E9850F1A5646CE003BED36 /* punch.mp3 in Resources */,
+				16E9850E1A5646CE003BED36 /* helicopter.mp3 in Resources */,
+				16E9850B1A5646CE003BED36 /* exhale.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
